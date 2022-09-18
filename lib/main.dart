@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                ),
              ),
              Container(
-               padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+               padding: const EdgeInsets.fromLTRB(15, 15, 15, 0),
                child: TextField(
                  obscureText : true,
 
@@ -57,10 +57,10 @@ class MyApp extends StatelessWidget {
 
              Container(
                height: 75,
-               padding: const EdgeInsets.fromLTRB(10, 50, 10, 0),
+               padding: const EdgeInsets.fromLTRB(15, 55, 15, 0),
                child: ElevatedButton(
                  style: ElevatedButton.styleFrom(
-                   minimumSize: const Size.fromHeight(50),
+                   minimumSize: const Size.fromHeight(45),
                    primary: Colors.amber,
                  ),
                  child: const Text('Log In'),
