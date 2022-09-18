@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             children:<Widget> [
              Container(
                alignment: Alignment.center,
-               padding: const EdgeInsets.fromLTRB(10, 10, 10, 50),
+               padding: const EdgeInsets.fromLTRB(20, 20, 20, 45),
                child :FlutterLogo(
                  size: 35,
                )
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                child: TextField(
                  decoration: InputDecoration(
                    border: OutlineInputBorder(
-                     borderRadius: BorderRadius.circular(85.0),
+                     borderRadius: BorderRadius.circular(70.0),
                    ),
                    labelText: 'Username',
                  ),
@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
 
                  decoration: InputDecoration(
                    border: OutlineInputBorder(
-                     borderRadius: BorderRadius.circular(85.0),
+                     borderRadius: BorderRadius.circular(70.0),
                    ),
                    labelText: 'Password',
                  ),
